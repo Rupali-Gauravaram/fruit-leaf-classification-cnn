@@ -1,0 +1,7 @@
+# Tested with Python 3.13 on CPU. Install with:  pip install -r requirements.txt
+torch==2.10.0
+torchvision==0.25.0
+scikit-learn==1.7.2
+matplotlib==3.10.6
+numpy==2.4.6
+jupyter
