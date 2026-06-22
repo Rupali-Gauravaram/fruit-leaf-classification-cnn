@@ -8,7 +8,7 @@
 
 ## Motivation
 
-A common failure mode in applied machine learning is to reach for a high-capacity model before establishing that a simpler one is insufficient. Deep convolutional networks are the default choice for image classification, but they are data-hungry, slower to train, and harder to interpret than classical alternatives; their advantages are realised only under conditions — large datasets, strong spatial structure, or transfer learning — that do not hold for every task labelled "image classification".
+A common failure mode in applied machine learning is to reach for a high-capacity model before establishing that a simpler one is insufficient. Deep convolutional networks are the default choice for image classification, but they are data-hungry, slower to train, and harder to interpret than classical alternatives; their advantages are realised only under conditions: large datasets, strong spatial structure, or transfer learning — that do not hold for every task labelled "image classification".
 
 This repository treats a ten-class fruit-leaf classification problem as a test of that principle. A small CNN is trained from scratch and then evaluated against a Random Forest baseline fitted on the same data. The comparison is deliberately constructed to be fair, the disparity between the two models is investigated rather than asserted, and a data-augmentation experiment is conducted to give the deep model a reasonable opportunity to close the gap. The conclusion — that classical machine learning is the appropriate tool for this dataset — is the principal contribution of the repository.
 
